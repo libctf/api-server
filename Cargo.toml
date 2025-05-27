@@ -1,0 +1,17 @@
+[package]
+name = "api-server"
+description = "API-Server for CTF-rs, is designed to leverage Kubernetes CRDs for functionality"
+version = "0.1.0"
+edition = "2024"
+license = "AGPL-3.0-or-later"
+readme = "README.md"
+homepage = "https://github.com/libctf/api-server"
+keywords = ["api-server", "ctf", "cli"]
+categories = [
+    "web-programming::http-server",
+    "web-programming::websocket",
+    "api-bindings",
+    "command-line-utilities",
+]
+
+[dependencies]
